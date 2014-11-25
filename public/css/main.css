@@ -1,0 +1,109 @@
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cascading Style Sheet For Landing Page
+Design by Jared Roberts <jaredroberts262@gmail.com>
+Code By RJ Ochmann <rgojr2001@yahoo.com>
+Created 8 November 2014
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+body {
+  margin-top: 80px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  font-family: "Montserrat Regular", Tahoma, Geneva, sans-serif; }
+
+/*
+~~~~~~~~~~~~~~~~~~~
+Announcements Panel
+~~~~~~~~~~~~~~~~~~~
+*/
+p#announcement {
+  color: #000000;
+  font-size: 24pt;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~
+New/Events Tabs Styling
+~~~~~~~~~~~~~~~~~~~~~~~
+*/
+div ul#myTab li {
+  margin-right: 100px; }
+
+div ul#myTab.nav.nav-tabs li a {
+  padding-left: 0px;
+  font-size: 20px;
+  color: #848484;
+  border-bottom-color: #848484;
+  border-width: 3px;
+  padding-bottom: 2px; }
+
+div ul#myTab.nav.nav-tabs li.active a {
+  color: #000000;
+  border-bottom-color: #ffdb00; }
+
+div.tab-content {
+  margin-top: 20px; }
+
+.nav-tabs {
+  margin-top: 50px; }
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~
+Header/Nav Bar Styling
+~~~~~~~~~~~~~~~~~~~~~~
+*/
+a.navbar-brand.wisport {
+  padding-left: 20px;
+  margin-top: 5px; }
+
+/*
+div#navbar-contents.collapse.navbar-collapse div.row div.col-lg-10.col-sm-10.navbar-right
+{
+    padding-left: 0px;
+}
+*/
+header {
+  padding-bottom: 10px; }
+
+div.user-info {
+  padding-top: 15px;
+  padding-right: 15px; }
+
+/*
+~~~~~~~~~~~~
+Form Styling
+~~~~~~~~~~~~
+*/
+input.form-control {
+  width: 35%; }
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~
+Form Validation messages
+~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+div.alert {
+  width: 35%; }
+
+.carousel-indicators {
+  margin-bottom: -50px; }
+
+.carousel-indicators li {
+  border: none;
+  background-color: black;
+  color: black;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px; }
+
+.carousel-indicators .active {
+  border: none;
+  background-color: #ffdb00;
+  color: #ffdb00;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px; }

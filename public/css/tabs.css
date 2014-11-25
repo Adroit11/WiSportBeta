@@ -1,0 +1,9 @@
+li a#tab
+{
+    font-size: 20px;
+}
+
+div ul#myTab.nav.nav-tabs li.active
+{
+
+}

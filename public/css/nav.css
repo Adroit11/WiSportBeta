@@ -1,0 +1,40 @@
+a.nav-button {
+    margin-top: 10px;
+}
+a.button > span {
+    display: -moz-inline-block;
+}
+
+@media (min-width: 1200px) {
+    #navbar-top .container {
+        width:1170px;
+    }
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+    #navbar-top .container {
+        width:960px;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    #navbar-top .container {
+        width:744px;
+    }
+}
+hr.nav-divider{
+    /*border-top: 2px solid #000000;*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*border-width: 2px 0px 0px;
+    border-color: #000000 -moz-use-text-color -moz-use-text-color;
+    color: #000000;*/
+}
+
+.navbar-right {
+    margin-right: 0px;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #000000;
+    font-size: 18px;
+
+}
